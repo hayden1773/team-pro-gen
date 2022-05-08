@@ -33,9 +33,13 @@ open terminal, type npm i jest, press enter, then npm i
         
         
 ## Usage
+
+
 open terminal and type in node and the js file name, select enter,then select the approprate selectors, type in required information
 
-![alt text]()
+![Team-builder](./02-Homework/assets/Untitled_%20May%208%2C%202022%2010_20%20AM.gif)
+
+https://drive.google.com/file/d/1Usa6qvX9HfCr1u1idxZzhhgJyb60Rizr/view
         
 ## Credits
 Hayden Kiltoff
