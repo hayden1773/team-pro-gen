@@ -40,8 +40,8 @@ function menu() {
                         name: "Github",
                         message: "Input Github"
                     },
-                ]).then(function ({ Name, ID, Github, Email }) {
-                    let newEngineer = new Engineer(Name, ID, Github, Email)
+                ]).then(function ({ Name, ID, Email, Github }) {
+                    let newEngineer = new Engineer(Name, ID, Email, Github)
 
                     employees.push(newEngineer)
                     menu()
@@ -69,8 +69,8 @@ function menu() {
                         name: "School",
                         message: "Input School"
                     },
-                ]).then(function ({ Name, ID, School, Email }) {
-                    let newIntern = new Intern(Name, ID, School, Email)
+                ]).then(function ({ Name, ID, Email, School  }) {
+                    let newIntern = new Intern(Name, ID, Email, School )
 
                     employees.push(newIntern)
                     menu()
@@ -107,8 +107,8 @@ inquirer.
             name: "OfficeNumber",
             message: "Input Office Number"
         },
-    ]).then(function ({ Name, ID, OfficeNumber, Email }) {
-        let newManager = new Manager(Name, ID, OfficeNumber, Email)
+    ]).then(function ({ Name, ID, Email, OfficeNumber }) {
+        let newManager = new Manager(Name, ID, Email, OfficeNumber)
 
         employees.push(newManager)
         menu()
