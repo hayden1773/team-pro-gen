@@ -15,6 +15,7 @@ function menu(){
     }).then(function({choice}){
         console.log(choice)
         
+      
     })
 }
 
